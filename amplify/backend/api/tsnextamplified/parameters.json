@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "tsnextamplified",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtsnextamplifiedc52d3f3f",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
